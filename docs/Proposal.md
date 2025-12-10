@@ -14,10 +14,10 @@ The majority of consumer robots are toys with limited interactivity, often relyi
 
 Project Description
 -------------------
-The task involves re-programming a Meccanoid G15 robot with advanced AI features. The central objective is to replace the toy-like, command-based interface with an adaptive and conversational one. The robot will be connected to a local server that serves a lightweight large language model for speech-to-text, intent recognition, and response generation.
+The task involves reprogramming a Meccanoid G15 robot with advanced AI features. The central objective is to replace the basic toy robot, command based interface with an adaptive and conversational one. The robot will be connected to a local server that serves a lightweight large language model for speech-to-text, intent recognition, and response generation.
 
 The system will allow the robot to:
-- Respond verbally in real-time.
+- Respond verbally in real time.
 - Learn from human interaction to improve future output.
 - Make motorized actions (walking, waving, pointing, dancing) to accompany conversation prompts.
 - Demonstrate possible uses for customer support, education, or companionship.
@@ -36,8 +36,8 @@ LLM Integration: local LLM (via Ollama)
 Additional Software/Equipment Needed
 ------------------------------------
 Hardware: Meccanoid G15 robot, USB/Bluetooth interface, local server.  
-Software: Visual Studio Code (IDE), Python and C++ compilers, GitHub for version control.  
-Testing/Deployment: Local test bench with microphone and speaker setup.  
+Software: Visual Studio Code, Python and C++ compilers, GitHub for version control.  
+Testing/Deployment: Integrated audio input/output test environment.  
 
 Alternative Solutions and Rationale #
 --------------------------------------
@@ -72,7 +72,7 @@ Alternative Solutions and Rationale #
 
 Personal Motivation
 -------------------
-I grew up taking apart electronics and learning how machines work, and I have always been fascinated by the idea of robots that could think and interact with people. This project lets me combine my interests in AI, computing, and hands-on robotics. It will also prepare me for a career in IT or AI systems analysis by giving me practical experience in integrating software with hardware.
+I grew up taking apart electronics and learning how machines work, and I have always been fascinated by the idea of robots that could think and interact with people. This project lets me combine my interests in AI, computing, and hands on robotics. It will also prepare me for a career in IT or AI systems analysis by giving me practical experience in integrating software with hardware.
 
 Outline of Future Research Efforts
 ----------------------------------
@@ -83,7 +83,7 @@ Outline of Future Research Efforts
 - Study the Meccanoid protocol documentation from PenguinTutor:  
   https://www.penguintutor.com/news/linux/meccanoid  
 - Watch YouTube tutorial: “Reverse Engineering Meccanoid Protocol.”  
-- Use a USB/Bluetooth serial adapter to manually send Meccanoid servo commands.  
+- Use a USB/Bluetooth serial adapter to manually send Meccanoid commands.  
 - Write a small C++ test program to trigger a known action (“wave”).  
 **Outcome:** A functioning C++ motor control module.
 
@@ -91,7 +91,7 @@ Outline of Future Research Efforts
 **Goal:** Choose a model small enough to run locally with low latency.  
 **First Steps:**  
 - Install Ollama on a laptop/server.  
-- Test these models: Phi-3 Mini, Gemma 2B, Mistral 7B (quantized).  
+- Test these models: Phi-3 Mini, Gemma 2B, Mistral 7B.  
 - Follow Ollama’s tutorial “Using Ollama with Python.”  
 - Create a Python timing script to benchmark response speed.  
 **Outcome:** A chart comparing speed, accuracy, and resource usage.
@@ -128,7 +128,7 @@ Schedule #
 *Fall 2025 - CSCI 497*  
 - August 15 - Research ideas for senior project  
 - September 7 - Bring idea to advisor  
-- October 6 - Dft proposal  
+- October 6 - Draft proposal  
 - November 25 - Completed Proposal / Requirements Document  
 - December 1 - Deeper research for project  
 
